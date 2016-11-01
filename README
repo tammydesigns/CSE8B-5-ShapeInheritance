@@ -1,0 +1,17 @@
+Program Description:
+Overall this program allows the user to create common shapes and display them on a digital board.
+The shapes that are supported are rectangles, sqaures, circles, triangles, lines and any other polygon.
+The program can also fill color into them. The program will tell you about the detailed locations of the
+shapes. 
+The way to create different shapes are as follows:
+Line/Triangle/Polygon: Give the program all the vertices of the shape.
+Rectangle/Sqaure: Give the program the upper left vertex of the shape and the length and width.
+Circle: Give the program the center point and the radius.
+
+Short Response:
+1.
+Change the x and y values of line1 and see whether line1 and line2 still have the same x and y values.
+If not, then it's probably a deep copy.
+2.
+Seperately create two new Objects that have exactly the same instance variables. And then use the equals
+method. If it says false, then it's probably a shallow comparaison.
